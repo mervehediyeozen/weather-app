@@ -1,0 +1,37 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px auto;
+  
+}
+
+
+#city-names {
+  border-radius:5px;
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
+.container2{
+  display: grid;
+  grid-template-rows:auto;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 20px;
+}
+
+.container3{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 20px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 .container3:first-child {
+  border: 1px solid gray;
+  background-color:aliceblue;
+}
